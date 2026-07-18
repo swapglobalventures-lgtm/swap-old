@@ -1,0 +1,88 @@
+body { 
+	margin: 0px;
+	padding: 0px;
+	background-color:#013855;
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal; 
+	color:#000000;
+	text-decoration: none;
+}
+
+a {
+	color:#029fe8;
+	text-decoration: underline;
+}
+
+a:hover {
+	color:#029fe8;
+	text-decoration: none;
+}
+
+.menu {
+	margin: 0px auto;
+	padding: 0px;
+}
+
+.menu a {
+	margin: 0px auto;
+	padding: 0px;
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	font-style: normal;
+	text-align: center;
+	color:#565656;
+	padding: 0px 15px;
+	text-decoration: none;
+}
+
+.menu a:hover {
+	color:#2f86c7;	
+}
+
+.content {
+	margin: 0px auto;
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	font-style: normal;
+	color:#494949;
+	padding: 10px 20px;
+}
+
+.right_box {
+	margin: 0px auto;
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	font-style: normal;
+	color:#ffffff;
+	padding: 0px;
+}
+
+.right_box p {
+	margin: 0px auto;
+	padding: 10px 0px 0px 0px;
+}
+.img_right {
+	float: right;
+	margin: 0px 0px 0px 10px;
+}
+
+.img_left {
+	float: left;
+	margin: 0px 10px 0px 0px;
+}
+
+.footer{
+	margin:0 auto;
+	background-color:#013855;
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size:10px;
+	color:#e3e2e2;
+	font-weight: normal;
+	font-style: normal;
+	text-align: center;
+	padding: 5px 0px 10px 0px;
+}
