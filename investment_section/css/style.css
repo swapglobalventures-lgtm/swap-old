@@ -1,8 +1,8 @@
-@import "reset.css";
-@import "skeleton.css";
-@import "superfish.css";
-@import "flexslider.css";
-@import "ui.totop.css";
+@import "../css/reset.css";
+@import "../css/skeleton.css";
+@import "../css/superfish.css";
+@import "../css/flexslider.css";
+@import "../css/ui.totop.css";
 article,aside,audio,canvas,command,datalist,details,embed,figcaption,figure,footer,header,hgroup,keygen,meter,nav,output,progress,section,source,video{display:block}mark,rp,rt,ruby,summary,time{display:inline}
 /* Global properties ======================================================== */
 html {width:100%}
@@ -146,7 +146,7 @@ h3{font-size: 14px;color: #fff;}
 
 .news{padding:  0 0 0 0px;}
 .news>li{background: #a30000; padding:  15px 10px 16px 19px;word-spacing: -1px; margin-bottom: 10px;}
-.news time{font-size: 14px;font-weight: bold;color: #fff;display: block;background: url('https://swapglobalventures.com/investment_section/images/time_marker.png') 0 5px no-repeat;padding:  0 0 0 16px;margin-bottom: 10px;}
+.news time{font-size: 14px;font-weight: bold;color: #fff;display: block;background: url('../images/time_marker.png') 0 5px no-repeat;padding:  0 0 0 16px;margin-bottom: 10px;}
 .news .m_bottom_zero{padding-bottom: 19px;}
 
 .services{}
@@ -161,7 +161,7 @@ h3{font-size: 14px;color: #fff;}
 
 .link2, .link1{color: #fff;border-bottom: 2px solid #ffce80; text-transform: none; font-size: 14px;}
 .link2{border-color: #c6c6c6;margin-top: 23px;display: inline-block;}
-.link3:after{display: inline-block;width: 5px;height: 9px;background: url('https://swapglobalventures.com/investment_section/images/link3_marker.png') no-repeat;margin:  4px 0 0 10px;content: "";}
+.link3:after{display: inline-block;width: 5px;height: 9px;background: url('../images/link3_marker.png') no-repeat;margin:  4px 0 0 10px;content: "";}
 .link3:hover{color: #a30000;}
 
 .link1:hover, .link2:hover{border-color: #fff;}
@@ -171,13 +171,13 @@ h3{font-size: 14px;color: #fff;}
 /*********************************page_2*************************************/
 .we_are>li{border-bottom: 1px solid #ffbf59;padding-bottom: 5px; margin-bottom: 17px;}
 .we_are>li>div{word-spacing: -1px;}
-.we_are>li>figure{margin: 3px 19px 0 0;padding: 4px 0 15px;width: 51px;text-align: center;font-size: 36px; line-height: 43px; color: #a30000;font-weight: bold;background: url('https://swapglobalventures.com/investment_section/images/big_marker.png') no-repeat;}
+.we_are>li>figure{margin: 3px 19px 0 0;padding: 4px 0 15px;width: 51px;text-align: center;font-size: 36px; line-height: 43px; color: #a30000;font-weight: bold;background: url('../images/big_marker.png') no-repeat;}
 
 ul li.last_li{border: none;}
 
-.testimonial{position: relative;-webkit-border-radius: 11px;-moz-border-radius: 11px;border-radius: 11px;background: url('https://swapglobalventures.com/investment_section/images/testimonials.jpg') repeat-x #bdbcbc;padding:  20px 30px 20px;margin-bottom: 11px;word-spacing: -2px;position: relative;}
-.testimonial:after{width: 36px;height: 21px;position: absolute;bottom: -21px;left: 64px;background: url('https://swapglobalventures.com/investment_section/images/test_after.png') no-repeat;display: block;content: "";}
-.testimonial:before{width: 30px;height: 26px;display: block;background: url('https://swapglobalventures.com/investment_section/images/quotes.png') no-repeat;position: absolute;left: 20px;top: 15px;content: "";}
+.testimonial{position: relative;-webkit-border-radius: 11px;-moz-border-radius: 11px;border-radius: 11px;background: url('../images/testimonials.jpg') repeat-x #bdbcbc;padding:  20px 30px 20px;margin-bottom: 11px;word-spacing: -2px;position: relative;}
+.testimonial:after{width: 36px;height: 21px;position: absolute;bottom: -21px;left: 64px;background: url('../images/test_after.png') no-repeat;display: block;content: "";}
+.testimonial:before{width: 30px;height: 26px;display: block;background: url('../images/quotes.png') no-repeat;position: absolute;left: 20px;top: 15px;content: "";}
 .author{text-align: right;margin-bottom: 26px;}
 
 .work{background: #ffba4d;margin-left: 20px;padding: 13px 13px 11px;float: left;width: 157px;}
