@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>SWAP Global Ventures </title>
+    <title>SWAP Global Ventures - </title>
     <meta charset="utf-8">
     <meta name="format-detection" content="telephone=no"/>
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
 	<meta name="google-site-verification" content="fuJgNmmeNghhtEJYjzT4NuODcWW46iT7tTevHDaXkko"/>	
+    <link rel="stylesheet" href="css/jquery.fancybox.css">
+    <link rel="stylesheet" href="css/mailform.css"/>
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-	<link rel="stylesheet" href="css/jquery.fancybox.css">
+	<link rel="stylesheet" href="css/google-map.css"/>
     <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="js/jquery.js"></script>
@@ -38,74 +40,80 @@
                 <li><a href="profile.html">Profile</a></li>
                 <!--<li><a href="infrastructure.html">Infrastructure</a></li>-->
                 <li><a href="services.html">Services</a></li>
-				<li class="active"><a href="case_study.html">Case Study</a></li>
-				<li><a href="contact.html">Contact Us</a></li>
+				<li><a href="case_study.html">Case Study</a></li>
+				<li class="active"><a href="contact.html">Contact Us</a></li>
             </ul>
         </nav>
 	</div>
 </header>
 <!--==============CONTENT====================-->
 <main>
-	<section class="well-1">
+	<section class="well-1__off well-1__off-1 well-media-1">  
             <div class="container">
-                <div class="row"> 
-                    <div class="col-md-12  col-sm-12 wow fadeInLeft" data-wow-delay="0.4s">
-                         <h5>&nbsp;</h5>
-						 <!-- <h5><a href='#'>Aprisa Technology</a></h5> -->
-					<p align="center" style="font-size: 18px;"><b> How a US-based hardware and software reseller increased process efficiency and improved their bottom line with help from SWAP </b></p>
-                    </div>
-                    <div>&nbsp;</div>
-                    <div class="center wow fadeInRight" ><img src="images/swap_case_study.png" alt="WAP Consultants"/></div>
-					<div>&nbsp;</div>
-					<div>&nbsp;</div>
-					<div>&nbsp;</div>
-                    <div class="center wow fadeInLeft" ><img src="images/case_study2.png" alt="WAP Consultants"/></div>
-                    <!-- <div class="center wow fadeInRight" ><img src="images/img8.jpg" alt=""/></div>
-                    <div>&nbsp;</div>
-                    <div class="center wow fadeInLeft" ><img src="images/swap_new.jpg" alt="WAP Consultants"/></div>-->
-                    <!--<h5 style="margin:-5px;">-->
-					<div>&nbsp;</div>
-					<p class="center"><b>Value added reporting : Monthly report of wins and losses with analysis </b></p><!--</h5>-->
-                </div>
-            </div>
-    </section>
-	
-	<section class="parallax well-2" data-url="images/parallax2.jpg" data-mobile="true" data-speed="1">
-            <div class="container center wow fadeInUp">
-                <h3>Why SWAP?</h3>
                 <div class="row">
-                    <div class="col-md-3 col-sm-6 col-xs-6">
-                        <h5 class="indent-">
-                        <span>
-                        	<p style="margin:0px 0px 5px 0px; letter-spacing: 2px;" align="left">&#149; Small size </p>
-                        	<p style="margin:0px 0px 5px 0px; font-size:20px;">&#176; Client-focused </p>
-                        </span>	
+                    <div class="col-md-8 col-sm-12 wow fadeInLeft">
+                        <!--<h4>Contact form</h4>-->
+                        <form class='mailform' method="post" action="contact-mail.php">
+						<input type="hidden" name="form-type" value="contact"/>
+						<fieldset>
+							
+							<!-- <label data-add-placeholder>
+								<input type="text" name="name" placeholder="Name :" data-constraints="@LettersOnly"/>
+							</label> -->
+							
+							<label data-add-placeholder>
+								<input type="text" name="company" placeholder="Name of Company :" data-constraints="@company @NotEmpty" required/>
+							</label>
+							
+							<label data-add-placeholder>
+								<input type="text" name="email" placeholder="Email* :" data-constraints="@Email @NotEmpty" required/>
+							</label>
+							
+							<!-- <label data-add-placeholder>
+								<input type="text" name="number" placeholder="Phone :" data-constraints="@Phone" />
+							</label>
+							
+							<label data-add-placeholder>
+								<textarea name="message" placeholder="Message :" data-constraints="@Message" ></textarea>
+							</label> -->
+
+							<div class="mfControls">
+								<button onclick="myFunction()" class="btn-primary btn-primary__md btn-primary__md-1" type="submit" name="submit2">Submit</button>
+							</div>
+						</fieldset>
+					</form>
                     </div>
-                    <div class="col-md-3 col-sm-6 col-xs-6 wow fadeInLeft" data-wow-delay="0.2s">
-                        <h5 class="indent-">
-                        <span>
-                        	<p align="center" style="letter-spacing: 2px;">&#149; Cost-effective </p>
-                        </span>	
-                    </div>
-                    <div class="col-md-2 col-sm-6 col-xs-6 wow fadeInRight" data-wow-delay="0.2s">
-                        <h5 class="indent-">
-                        <span>
-                        	<p align="right" style="letter-spacing: 2px;">&#149; Scalability  </p>
-                        </span>	
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-xs-6 wow fadeInRight" data-wow-delay="0.4s">
-                        <h5 class="indent-" style="letter-spacing: 2px;">
-                        <span>
-                        	<p align="right">&#149; Low employee turnover </p>
-                        </span>	
+			<div class="col-md-4 col-sm-12 wow fadeInRight">
+                        <!--<h4>Our address</h4><br/>-->
+                        <h5>SWAP Global Ventures</h5>
+			<p>
+				1st Floor, V.C.A. Complex, <br/>
+				Gate No. 8, Above NCC Office, <br/> 
+				Civil Lines, Nagpur - 440001 
+			</p>
+                        <p><i class="fa fa-phone-square" aria-hidden="true"></i>&nbsp;&nbsp; +1 (442) 222-1304 </p>
+						<p><i class="fa fa-mobile" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp; +91-9765 556 959 </p>
+                        <p><i class="fa fa-phone-square" aria-hidden="true"></i>&nbsp;&nbsp; +91 (712) 6641166 / 67 </p>
+                        <!-- <p><i class="fa fa-fax" aria-hidden="true"></i>&nbsp;&nbsp; +91-712-6641122 </p> -->
+                        <p><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;&nbsp;
+                            <a href="mailto:info@swapglobalventures.com">info@swapglobalventures.com </a>
+                        </p>
                     </div>
                 </div>
-            </div>
-    </section>
-		
-        
-	
-
+				</div>
+</section>		
+			<div class="map">
+				<iframe src="//www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14883.461522239384!2d79.076069!3d21.157755!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x36d31f1377368304!2sSwap+Consultants+Pvt.+Ltd.!5e0!3m2!1sen!2sin!4v1559202995478!5m2!1sen!2sin" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</div>
+			<!-- <div class="map">
+					<div id="google-map" class="map_model"></div>
+						<ul class="map_locations">
+							<li data-x="79.0758774" data-y="21.1573455">
+							<p> 1st Floor, V.C.A. Complex, Gate No. 8, Above NCC Office, Civil Lines, Nagpur - 440001 &nbsp; /  
+							<span>+91-9765 556 959 </span></p>
+							</li>
+						</ul>
+			</div> -->
 </main>
 <!--=====================FOOTER================================-->
 <footer>
@@ -127,18 +135,18 @@
                     
                     <div class="col-md-4 col-sm-6 col-xs-6 wow fadeInUp">
                         <h6><strong>Address</strong></h6>
-					<p class="privacy">SWAP Global Ventures <br/>
+					<p class="privacy">SWAP Global Ventures<br/>
 						1st Floor, V.C.A. Complex, <br/>
 						Gate No. 8, Above NCC Office, <br/>
 						Civil Lines, Nagpur - 440001 
 					</p>
 					<br/>	
 					<p class="privacy">
-			<i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;&nbsp;
-			<a href="mailto:info@swapglobalventures.com">info@swapglobalventures.com </a><br/>
-			
-			<i class="fa fa-laptop" aria-hidden="true"></i>&nbsp;&nbsp;
-			<a href="https://swapglobalventures.com/kpo_division/" target="_blank">www.swapglobalventures.com/kpo_division/ </a></p>
+						<i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;&nbsp;
+							<a href="mailto:info@swapglobalventures.com">info@swapglobalventures.com </a><br/>
+						<i class="fa fa-laptop" aria-hidden="true"></i>&nbsp;&nbsp;
+							<a href="https://swapglobalventures.com/bpo_division/" target="_blank">www.swapglobalventures.com/bpo_division/ </a>
+					</p>
                     </div>
 					<div class="col-md-4 col-sm-6 col-xs-6 wow fadeInUp">
                         <h6><strong>CONTACT US</strong></h6>
@@ -156,8 +164,8 @@
 						<i class="fa fa-fax" aria-hidden="true"></i>&nbsp;&nbsp;
 						<p class="callto">+1 (442) 222-1304 </a></p><br/> -->
 						
-						<p class="privacy">&copy; <script type="text/javascript"> document.write((new Date()).getFullYear())</script> - SWAP Global Ventures <!-- <br/>
-                        Powered By <a href="http://www.systron.net" target="_blank">Systron </a> -->
+						<p class="privacy">&copy; <script type="text/javascript"> document.write((new Date()).getFullYear())</script> - SWAP Global Ventures <br/>
+                        Powered By <a href="http://www.systron.net" target="_blank">Systron </a>
                         </p>
                     </div>
                 </div>
@@ -166,5 +174,6 @@
     </footer>
 </div>
 <script src="js/script.js"></script>
+
 </body>
 </html>
