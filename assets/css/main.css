@@ -1,4 +1,4 @@
-@import url("https://swapglobalventures.com/assets/css/font-awesome.min.css");
+@import url("font-awesome.min.css");
 @import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic");
 
 /* Reset */
@@ -2705,7 +2705,7 @@
 			background-color: #333;
 			color: rgba(255, 255, 255, 0.75);
 			background-attachment: fixed,							fixed;
-			background-image: url("https://swapglobalventures.com/assets/css/images/overlay1.png"), url("https://swapglobalventures.com/images/header.jpg");
+			background-image: url("images/overlay1.png"), url("../../images/header.jpg");
 			background-size: auto,							cover;
 		}
 
@@ -2989,7 +2989,7 @@
 		background-color: #4686a0;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("https://swapglobalventures.com/assets/css/images/overlay2.png"), url("https://swapglobalventures.com/assets/css/images/overlay4.svg"), linear-gradient(45deg, #4361c2, #4fa49a 50%, #9dc66b 95%);
+		background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(45deg, #4361c2, #4fa49a 50%, #9dc66b 95%);
 		background-position: top left,						center center,					center center;
 		background-size: auto,							cover,							cover;
 		text-align: center;
